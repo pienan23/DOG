@@ -1,0 +1,264 @@
+@import url("https//use.fontawesome.com/releases/v6.4.2/css/all.css");
+@import url('https://fonts.googleapis.com/css2? family= Indie+Flower & family= Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100;1,200;1,400 & family= Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    height: 120vh;
+    color: white;
+}
+.logo H1{
+    font-size: 50px;
+    font-weight: 400;
+}
+nav .navbar{
+    padding-top: 60px;
+    text-decoration: none;
+    list-style: none;
+  
+    margin-left: 60px;
+    margin-right: 60px;
+}
+nav .navbar .container{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+ 
+  
+}
+nav .navbar .container .nav-onglet{ 
+    position: relative;
+    display: flex;
+    align-items: center;
+     
+      height: 60px;
+    width: 55rem;
+    justify-content: space-around;
+    
+  
+}
+
+nav .navbar .container .nav-onglet .nav-items a{ 
+font-size: 20px; 
+  color: white;  
+  font-weight: 300;
+  letter-spacing: 1;
+  
+}
+.active{
+    text-align: center;
+    height: 50px;
+    line-height:50px;
+    width: 300px;
+    background-color: 
+    #c79288;
+    
+   
+}
+
+header .description{
+   
+ 
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+header .description .left
+{
+    padding-top: 140px;
+
+    height: 30rem;
+}
+header .description .left h1
+{
+    font-size: 60px;
+}
+header .description .left p
+{
+ font-size: 20px;
+}
+header .description .left button
+{
+    
+    margin-top: 20px;
+ font-size: 20px;
+ padding: 20px;
+ width: 20rem;
+ background-color: #c79288;
+}
+header .description .left button  a
+{
+    
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+}
+header .description .right img{
+ width: 60rem; 
+ height: 40rem; 
+ 
+}
+/* ****************************************************end header */
+
+/* ***************stars  main************************ */
+
+
+/* section slogan */
+
+    /* margin-left: 60px;
+    margin-right: 60px;    */
+
+
+.slogan{
+    border: 2px solid red;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.slogan h1{
+    letter-spacing: 1px;
+    font-size: 60px;
+    font-weight:bold;
+    width: 50rem;
+    color: rgb(48, 47, 47);
+}
+.slogan p{
+   
+    padding-top: 20px;
+    font-size:20px;
+    width: 50rem;
+    font-weight: 200;
+    color: rgb(48, 47, 47);
+}
+
+/* stars rencontrer nos chien******************* */
+
+.rencontrer-nos-chiens{
+    
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+background-color: #c79288;
+color: white;
+}
+.rencontrer-nos-chiens .container{
+    margin-left: 60px;
+    margin-right: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+ }
+
+ .rencontrer-nos-chiens .container  .dog {
+    width:25rem;
+    height: 54rem;
+ 
+    
+ }
+
+ .rencontrer-nos-chiens .container  .dog img{
+    width:28rem;
+    height: 40rem;
+    
+ }
+ .rencontrer-nos-chiens .container  .dog h1{
+   font-size: 40px;
+   letter-spacing: 1px;
+   margin-bottom: 10px;
+    
+ }
+
+ .rencontrer-nos-chiens button{
+  margin-left: 36rem;
+  margin-top: 100px;
+  margin-bottom: 120px;
+  font-size: 20px;
+  padding: 20px;
+  width: 26rem;
+  background-color: #fcfcfc;
+     border: none;
+  }
+
+  .rencontrer-nos-chiens button:hover{
+   opacity: 85%;
+    }
+
+  .rencontrer-nos-chiens button a {
+   font-weight: bold;
+   color: #c79288;
+    }
+
+    /* *********footer */
+
+    footer{
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 60px; 
+    
+        height: 50vh;
+        
+    }
+    footer .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer .left h1{
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    footer .left .reseaux-sociaux-icone i{
+        font-size: 30px;
+        color: rgb(90, 89, 89);
+        letter-spacing: 5px;
+    }
+
+    footer .right{
+        width: 500px;
+        height: 150px;
+        justify-content: space-around;
+        display: flex;
+        line-height: 50px;
+      
+    }
+
+    footer .right a{
+        font-size: 20px;
+        color: #c79288;
+        text-decoration: underline;
+    }
+
+    footer p{
+        margin-top: 10rem;
+        font-size: 20px;
+        letter-spacing: 2px;
+        
+    }
+
+    footer p a{
+        color: #c79288;
+        
+    }
+   
+/* *************** end   main************************ */
+
